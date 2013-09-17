@@ -1,0 +1,183 @@
+@import url(http://fonts.googleapis.com/css?family=Rufina);
+@import url(http://fonts.googleapis.com/css?family=Sintony:400,700);
+
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+    font-family:'Sintony', sans-serif;
+    background-color:#87A4BC;
+}
+
+#container {
+    min-height:100%;
+    position:relative;
+}
+
+#header {
+    font-family:'Rufina',serf;
+    position:relative;
+    margin-top:-16px;
+    height:140px;
+    width:100%;
+    background:#334A5D;	
+}
+
+#bulletin {
+    text-align:center;
+    width:100%;
+    background-color:#C3D1DD;
+    color:#6897BE;
+    padding:15px;
+}
+
+#main {
+    padding:10px;
+    padding-bottom:100px
+}
+
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:40px;
+    text-align:center;
+    color:white;
+    background-color:#334A5D;
+    padding:15px;
+}
+
+#footercontent {
+    margin:0 auto 0 auto;
+    opacity:.8;
+    font-size:small;
+    padding:10px
+    color:white;
+    width:130px;
+    background-color:#EF5F22;
+}
+
+
+p {
+    text-align:justify;
+    text-justify:inter-words;
+    margin:15px;
+    color:#334A5D;
+}
+
+p a {
+    color:black;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+p a:hover {
+    color:#6897BE;
+}
+
+.content {
+    background-color:white;
+    border:1px solid black;
+    width:600px;
+    padding:0;
+    margin:20px auto 0 auto;
+}
+
+.contenthead {
+    color:white;
+    padding:5px;
+    position:relative;
+    background-color:#EF5F22;
+    margin:0px;
+}
+
+.contentfoot {
+    background-color:#EF5F22;
+    color:white;
+    font-size:small;
+    text-align:right;
+    padding:2px 10px 2px 0;
+}
+
+img.head {
+    position:absolute;
+    right:10px;
+    top:5px;
+}
+
+
+h1 {
+    margin:0 0 0 10px;
+}
+
+h2 {
+    font-size:small;
+    text-align:right;
+    margin-right:15px;
+}
+
+img.head {
+    position:absolute;
+    right:10px;
+    top:5px;
+}
+
+#navcontainer {
+    position:absolute;
+    bottom:5px;
+    right:20px;
+}
+
+
+
+.nav li{
+    font-weight:bold;
+    margin:5px;
+    background:#EF5F22;
+    display:inline;
+    list-style-type:none;
+    padding:10px;
+    font-size:15px;
+    color:white;
+}
+
+.nav li:hover {
+    background:#6897BE;
+}
+
+.nav a {
+    color:white;
+    text-decoration:none;
+}
+
+#titlecontainer {
+    position:absolute;
+    bottom:5px;
+    left:20px;
+    padding:0;
+}
+
+#title {
+    color:white;
+    font-size:60px;
+    padding:0;
+    margin:0;
+}
+
+#subtitle {
+    color:#6897BE;
+    font-size:25px;
+    padding:0;
+    margin-top:-7px;
+    margin-left:4px;
+}
+
+#dectext {
+    opacity:.5;
+    text-align:right;
+    position:absolute;
+    right:0;
+    color:white;
+}
+
+
